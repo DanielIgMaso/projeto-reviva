@@ -9,6 +9,7 @@ function Header({ corPrincipal, corSecundaria }) {
 
   return (
     <header className="p-4 text-white text-center" style={headerStyle}>
+      <img src='src\assets\logo.png'></img>
       <h1 className="display-4">ReViva</h1>
       <p className="lead">Transformando e renovando o nosso presente, pelo bem do amanhã</p>
     </header>
